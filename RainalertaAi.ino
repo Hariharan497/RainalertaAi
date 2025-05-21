@@ -5,18 +5,18 @@
 #include <ArduinoJson.h>
 
 // WiFi credentials
-const char* ssid = "HARIHARAN";
-const char* password = "thanya02";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
 
 // Telegram Bot Token and chat ID
-const char* botToken = "7838506267:AAGkfmdtccidygS9D3yJtCyFgg5H5Tgwz3o";
-const int64_t chatID = 1437420185;
+const char* botToken = "123456789:ABCdefGHIjklMNOpqrSTUvwxYZ";
+const int64_t chatID = YOUR_CHAT_ID;
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(botToken, client);
 
 // OpenWeatherMap settings
-const char* weatherApiKey = "11ca39d66d2c9d325051ba7a0804619e";
+const char* weatherApiKey = "YOUR_OPENWEATHER_API_KEY";
 const float lat = 11.1271;
 const float lon = 78.6569;
 
